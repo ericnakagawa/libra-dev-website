@@ -34,7 +34,7 @@ while getopts 'hbr' flag; do
   esac
 done
 
-git submodule update --init
+git clone https://github.com/libra/libra.git libra
 
 # manually copy crate README files from fixed directory
 ###
